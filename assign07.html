@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign07.css">
+    <script defer src="assign07.js"></script>
+</head>
+<body>
+    <h1>Mortgage Calculator</h1>
+    <form id="calcmortgage" action="">
+        Enter apr: <input id="apr" type="text" name="apr" required> <br> <br>
+        Enter Loan Term: <input id="term" type="text" name="loan_term" required> <br> <br>
+        Enter Loan Amount: <input id="amount" type="text" name="loan_amount" required> <br> <br>
+        Monthly payment: <input id="payment" type="text" name="monthly_payment">
+        <br> <br>
+        <input type="button" onclick="reset()" value="Reset">
+        <input id="calculate" type="button" value="Calculate Mortgage">
+        <br> <br>
+        <div id="desc">
+        </div>
+    </form>
+</body>
+</html>

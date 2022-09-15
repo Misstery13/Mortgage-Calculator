@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        body {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: justify;
+            font-family: 'Poppins', sans-serif;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            
+        }
+
+        form>input{
+            margin: 5px 0 5px 0;
+        }
+
+        div{
+            color: red;
+        }
